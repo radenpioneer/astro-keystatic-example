@@ -1,24 +1,34 @@
 // @ts-check
-import { config, fields, singleton } from "@keystatic/core";
+import { config, fields, singleton } from '@keystatic/core'
 
 export default config({
-    storage: {
+  storage: import.meta.env.DEV
+    ? {
+        kind: 'local'
+      }
+    : {
         kind: 'github',
         repo: {
-            owner: 'radenpioneer',
-            name: 'astro-keystatic-example'
+          owner: 'radenpioneer',
+          name: 'astro-keystatic-example'
         }
-    },
+      },
 
-    singletons: {
-        site: singleton({
-            label: 'Site',
-            path: 'src/data/site/site',
-            format: 'json',
-            schema: {
-                title: fields.text({ label: 'Title', validation: { length: { max: 64 } } }),
-                description: fields.text({ label: 'Description', validation: { length: { max: 160 } } })
-            }
+  singletons: {
+    site: singleton({
+      label: 'Site',
+      path: 'src/data/site/site',
+      format: 'json',
+      schema: {
+        title: fields.text({
+          label: 'Title',
+          validation: { length: { max: 64 } }
+        }),
+        description: fields.text({
+          label: 'Description',
+          validation: { length: { max: 160 } }
         })
-    }
+      }
+    })
+  }
 })
