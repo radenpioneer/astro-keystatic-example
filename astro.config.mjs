@@ -6,9 +6,7 @@ import keystatic from '@keystatic/astro'
 
 // https://astro.build/config
 export default defineConfig({
-  redirects: {
-    '/sngrcreative': 'https://sngrcreative.pages.dev'
-  },
+  site: 'https://astro-keystatic-example.pages.dev',
   adapter: cloudflare({
     platformProxy: {
       enabled: true
