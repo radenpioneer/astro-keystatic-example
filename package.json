@@ -1,24 +1,37 @@
 {
-  "name": "empty",
-  "type": "module",
+  "name": "astro-keystatic-example",
   "version": "0.0.1",
+  "type": "module",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro build && wrangler pages dev",
     "astro": "astro",
+    "build": "conc bun:check:* && astro build",
+    "check:astro": "astro check",
+    "check:style": "prettier --check .",
+    "dev": "astro dev",
+    "format": "prettier --write .",
+    "preview": "astro build && wrangler pages dev",
     "deploy": "astro build && wrangler pages deploy",
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.4",
-    "@astrojs/cloudflare": "^11.1.0",
-    "astro": "^4.16.6",
-    "typescript": "^5.6.3"
+    "@astrojs/cloudflare": "^12.2.4",
+    "@astrojs/react": "^4.2.1",
+    "@keystatic/astro": "^5.0.6",
+    "@keystatic/core": "^0.5.46",
+    "@types/react": "^19.0.11",
+    "@types/react-dom": "^19.0.4",
+    "astro": "5.5.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20241011.0",
-    "wrangler": "^3.81.0"
+    "@astrojs/check": "0.9.4",
+    "@cloudflare/workers-types": "^4.20250317.0",
+    "concurrently": "9.1.2",
+    "prettier": "3.5.3",
+    "prettier-config-standard": "7.0.0",
+    "prettier-plugin-astro": "0.14.1",
+    "typescript": "5.8.2",
+    "wrangler": "^4.2.0"
   }
 }

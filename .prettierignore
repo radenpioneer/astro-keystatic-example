@@ -6,6 +6,7 @@ dist/
 
 # dependencies
 node_modules/
+bun.lock
 
 # logs
 npm-debug.log*
@@ -23,6 +24,5 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 
-# wrangler files
-.wrangler
-.dev.vars*
+# content
+src/content
