@@ -14,5 +14,14 @@ export default defineConfig({
       enabled: true
     }
   }),
-  integrations: [react(), keystatic()]
+  integrations: [react(), keystatic()],
+  vite: {
+    resolve: {
+      alias: import.meta.env.PROD
+        ? {
+            'react-dom/server': 'react-dom/server.edge'
+          }
+        : {}
+    }
+  }
 })
