@@ -14,24 +14,24 @@
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^12.2.4",
-    "@astrojs/react": "^4.2.1",
-    "@keystatic/astro": "^5.0.6",
-    "@keystatic/core": "^0.5.46",
+    "@astrojs/cloudflare": "12.3.0",
+    "@astrojs/react": "4.2.1",
+    "@keystatic/astro": "5.0.6",
+    "@keystatic/core": "0.5.46",
     "@types/react": "^19.0.11",
     "@types/react-dom": "^19.0.4",
     "astro": "5.5.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.4",
-    "@cloudflare/workers-types": "^4.20250317.0",
+    "@cloudflare/workers-types": "4.20250321.0",
     "concurrently": "9.1.2",
     "prettier": "3.5.3",
     "prettier-config-standard": "7.0.0",
     "prettier-plugin-astro": "0.14.1",
     "typescript": "5.8.2",
-    "wrangler": "^4.2.0"
+    "wrangler": "4.4.0"
   }
 }
