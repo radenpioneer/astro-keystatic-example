@@ -18,20 +18,20 @@
     "@astrojs/react": "4.4.2",
     "@keystatic/astro": "5.0.6",
     "@keystatic/core": "0.5.48",
-    "@types/react": "19.2.9",
+    "@types/react": "19.2.13",
     "@types/react-dom": "19.2.3",
-    "astro": "5.16.15",
-    "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "astro": "5.17.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.6",
-    "@cloudflare/workers-types": "4.20260123.0",
+    "@cloudflare/workers-types": "4.20260206.0",
     "concurrently": "9.2.1",
     "prettier": "3.8.1",
     "prettier-config-standard": "7.0.0",
     "prettier-plugin-astro": "0.14.1",
     "typescript": "5.9.3",
-    "wrangler": "4.60.0"
+    "wrangler": "4.63.0"
   }
 }
