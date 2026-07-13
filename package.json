@@ -16,8 +16,8 @@
   "dependencies": {
     "@astrojs/cloudflare": "12.6.13",
     "@astrojs/react": "4.4.2",
-    "@keystatic/astro": "5.1.0",
-    "@keystatic/core": "0.5.50",
+    "@keystatic/astro": "5.2.0",
+    "@keystatic/core": "0.5.51",
     "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3",
     "astro": "5.18.2",
@@ -28,10 +28,10 @@
     "@astrojs/check": "0.9.9",
     "@cloudflare/workers-types": "4.20260702.1",
     "concurrently": "9.2.3",
-    "prettier": "3.9.4",
+    "prettier": "3.9.5",
     "prettier-config-standard": "7.0.0",
     "prettier-plugin-astro": "0.14.1",
     "typescript": "5.9.3",
-    "wrangler": "4.107.0"
+    "wrangler": "4.110.0"
   }
 }
