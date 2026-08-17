@@ -17,7 +17,7 @@
     "@astrojs/cloudflare": "12.6.13",
     "@astrojs/react": "4.4.2",
     "@keystatic/astro": "5.2.0",
-    "@keystatic/core": "0.6.4",
+    "@keystatic/core": "0.6.5",
     "@types/react": "19.2.18",
     "@types/react-dom": "19.2.4",
     "astro": "5.18.2",
@@ -32,6 +32,6 @@
     "prettier-config-standard": "7.0.0",
     "prettier-plugin-astro": "0.14.1",
     "typescript": "5.9.3",
-    "wrangler": "4.119.0"
+    "wrangler": "4.123.0"
   }
 }
