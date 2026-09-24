@@ -30,7 +30,7 @@
     "concurrently": "9.2.4",
     "prettier": "3.9.8",
     "prettier-config-standard": "7.0.0",
-    "prettier-plugin-astro": "0.14.1",
+    "prettier-plugin-astro": "1.0.1",
     "typescript": "5.9.3",
     "wrangler": "4.134.0"
   }
