@@ -32,6 +32,6 @@
     "prettier-config-standard": "7.0.0",
     "prettier-plugin-astro": "0.14.1",
     "typescript": "5.9.3",
-    "wrangler": "4.141.0"
+    "wrangler": "4.146.0"
   }
 }
