@@ -25,13 +25,13 @@
     "react-dom": "19.3.1"
   },
   "devDependencies": {
-    "@astrojs/check": "0.9.10",
+    "@astrojs/check": "0.9.12",
     "@cloudflare/workers-types": "4.20260702.1",
     "concurrently": "9.2.5",
     "prettier": "3.9.10",
     "prettier-config-standard": "7.0.0",
     "prettier-plugin-astro": "0.14.1",
     "typescript": "5.9.3",
-    "wrangler": "4.151.0"
+    "wrangler": "4.152.0"
   }
 }
